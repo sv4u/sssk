@@ -2,8 +2,8 @@ CC = gcc
 ASM = nasm
 LD = ld
 CFLAGS = -m32 -c
-ASMFLAGS = -f elf
-LDFLAGS = -m elf -T
+ASMFLAGS = -f 
+LDFLAGS = -m elf_i386 -T
 
 assemble: kernel.asm
 	$(ASM) $(ASMFLAGS) kernel.asm -o kernel_asm.o
