@@ -30,3 +30,4 @@ ld -m elf_i386 -T link.ld -o sssk kernel_asm.o kernel_c.o
 ### To Do
 
 * Keyboard support
+* grub support (add a file on how to add this kernel to grub)
